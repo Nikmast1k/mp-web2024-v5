@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ветеринарная клиника Доктора Тома</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header__logo"></div>
+        <div class="header__contact-info">
+            <p class="caption">Работаем круглосуточно</p>
+            <p class="text3">Подольск, ул.Чайковского, 48А</p>
+        </div>
+        <div class="header__contact-info-secondary">
+            <a href="tel:+74956783222" class="text3">+7 495 678 32 22</a>
+            <p class="caption">Круглосуточно в подольске</p>
+        </div>
+        <a href="tel:+74956783222" class="header__contact-info__tel">+7 495 678 32 22</a>
+        <img src="images/menu.svg" class="header__menu" alt="Menu" />
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner__title">
+                <h1>
+                    Доктор Тома — ветеринарная клиника <span class="textGogolFont">безусловной любви</span>
+                </h1>
+                <p class="text">
+                    Полный спектр услуг: от диагностики и лечения, до медицинского сопровождения питомцев разного вида и возраста
+                </p>
+                <button class="button-appointment">
+                    <img src="images/paws.png" alt="paw" width="25px" height="25px">
+                    <span class="button-text">
+                        Записаться на прием
+                    </span>
+                </button>
+            </div>
+
+            <div class="banner__promo">
+                <div class="banner__promo__title">
+                    <span>
+                        Акции Декабря
+                    </span>
+
+                    <button class="button-previous">
+                        <img src="images/arrow-right.svg" alt="previous">
+                    </button>
+
+                    <button class="button-next">
+                        <img src="images/arrow-right.svg" alt="next">
+                    </button>
+                </div>
+
+                <div class="banner__promo__list">
+                    <div class="banner__promo__list__item">
+                        <p class="text">-15% <br> На первый прием</p>
+                    </div>
+
+                    <div class="banner__promo__list__item">
+                        <p class="text">
+                            Скидка волонтерам на услуги клиники 15% на бездомных животных
+                        </p>
+                    </div>
+
+                    <div class="banner__promo__list__item">
+                        <p class="text">
+                            Каждую пятницу <br> стерилизация кошки от 2250₽, вместо 3500₽
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <span class="section-title">
+                О клинике
+            </span>
+
+            <div class="about__description">
+                <h2>
+                    Страсть к профессии <br> <span class="textGogolFont">и забота о животных - </span> <br> основные принципы нашей работы
+                </h2>
+
+                <p class="text">
+                    Наша клиника открылась в 2023 году.
+                    Специалисты клиники уделяют особое внимание профилактике
+                    хронических заболеваний и вакцинации
+                </p>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__card-small">
+                <img src="images/advantages-vet.svg" alt="vet">
+                <h3>
+                    Современное оборудование
+                </h3>
+                <p class="text">
+                    Проводим диагностику и лечение пациентов на самом современном оборудовании
+                </p>
+            </div>
+
+            <div class="advantages__card-big">
+                <div class="uniqueness-badge">
+                    <span class="text2">Только у нас</span>
+                </div>
+
+                <h3>
+                    Хирургия 24/7
+                </h3>
+                <p class="text">
+                    Выполняем плановые, срочные и экстренные операции любой сложности круглосуточно
+                </p>
+            </div>
+
+            <div class="advantages__card-small">
+                <img src="images/advantages-help.svg" alt="help">
+                <h3>
+                    Экстренная помощь
+                </h3>
+                <p class="text">
+                    Оперативно принимаем, оперируем и лечим экстренного больного вне очереди
+                </p>
+            </div>
+
+            <div class="advantages__card-small">
+                    <h3>
+                        Биохимический анализ крови
+                        <br>
+                        <span class="textGogolFont">
+                            за 15 минут!
+                        </span>
+                    </h3>
+                <p class="text">
+                    Результаты анализов
+                    в кратчайшие сроки. Количество показателей можно выбрать
+                </p>
+            </div>
+
+            <div class="advantages__card-small">
+                <img src="images/advantages-donors.svg" alt="help">
+                <h3>
+                    Собственная база доноров
+                </h3>
+                <p class="text">
+                    Всегда в наличии цельная кровь, эритроцитарная масса,
+                    плазма крови кошек и собак
+                </p>
+            </div>
+
+            <div class="advantages__card-big">
+                <div class="uniqueness-badge">
+                    <span class="text2">Только у нас</span>
+                </div>
+
+                <h3>
+                    Постановка катетера в яремную вену
+                </h3>
+                <p class="text">
+                    Поставим катетер в яремную вену вашему питомцу с максимальной осторожностью
+                </p>
+            </div>
+
+            <div class="advantages__card-small">
+                <img src="images/advantages-goat.svg" alt="help">
+                <h3>
+                    Лечение, хирургия мелкого рогатого скота
+                </h3>
+                <p class="text">
+                    Успешно лечим, оперируем лошадей и остальных сельско-хозяйственных животных
+                </p>
+            </div>
+        </section>
+
+        <section class="form" id="form-doctor">
+            <div class="form__container">
+                <div class="form__title">
+                    <h2>
+                        Вызов врача на дом
+                    </h2>
+                    <p class="text">
+                        Вашему питомцу требуется неотложная помощь? Приедем в течение 40 минут!
+                    </p>
+                </div>
+
+                <form action="">
+                    <label for="name">Ваше имя</label>
+                    <label for="phone">Телефон</label>
+
+                    <input id="name" type="text" placeholder="ВАШЕ ИМЯ" class="form__input">
+                    <input id="phone" type="tel" placeholder="ТЕЛЕФОН" class="form__input">
+                    <button type="submit" class="button-primary">
+                        Отправить
+                    </button>
+                    <p class="caption">
+                        *Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <section class="services">
+            <span class="section-title">
+                Услуги
+            </span>
+
+            <h2>
+                Мы предоставляем
+                <br>
+                <span class="textGogolFont">срочную качественную</span>
+                <br>
+                медицинскую помощь вашим питомцам
+            </h2>
+
+            <div class="services__buttons">
+                <button class="button-previous">
+                    <img src="images/arrow-right.svg" alt="previous">
+                </button>
+
+                <button class="button-next">
+                    <img src="images/arrow-right.svg" alt="next">
+                </button>
+            </div>
+
+            <div class="services__list">
+                <div class="services__list__item">
+                    <img src="images/services-diagnostic.svg" alt="diagnostic">
+                    <p class="text">
+                        Инструментальная диагностика
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-research.svg" alt="diagnostic">
+                    <p class="text">
+                        Лабораторные исследования
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-therapy.svg" alt="diagnostic">
+                    <p class="text">
+                        Терапия и профилактика
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-surgery.svg" alt="diagnostic">
+                    <p class="text">
+                        Хирургия
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-blood.svg" alt="diagnostic">
+                    <p class="text">
+                        Переливание крови
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-stationary.svg" alt="diagnostic">
+                    <p class="text">
+                        Реанимация и стационар
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-doctor.svg" alt="diagnostic">
+                    <p class="text">
+                        Прием врача узкой специализации
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-hygiene.svg" alt="diagnostic">
+                    <p class="text">
+                        Гигиена
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-dentist.svg" alt="diagnostic">
+                    <p class="text">
+                        Стоматология
+                    </p>
+                </div>
+
+                <div class="services__list__item">
+                    <img src="images/services-euthanasia.svg" alt="diagnostic">
+                    <p class="text">
+                        Эвтаназия
+                    </p>
+                </div>
+            </div>
+
+            <button class="button-primary">
+                <img src="images/paws.png" alt="paw" width="20px" height="20px">
+                <span>Все услуги</span>
+            </button>
+        </section>
+
+        <section class="specialists">
+            <span class="section-title">
+                Специалисты
+            </span>
+
+            <h2>
+                Каждый из наших врачей
+                <br>
+                <span class="textGogolFont">имеет опыт работы</span>
+                <br>
+                не менее 7 лет
+            </h2>
+
+            <div class="specialists__list">
+                <div class="specialists__list__item">
+                    <h3>
+                        Ласточкина Татьяна
+                        Евгеньевна
+                    </h3>
+                    <p class="text2">
+                        Терапевт, хирург, стоматолог
+                    </p>
+                </div>
+
+                <div class="specialists__list__item">
+                    <h3>
+                        Журавлев Игорь
+                        Николаевич
+                    </h3>
+                    <p class="text2">
+                        Терапевт, хирург, стоматолог
+                    </p>
+                </div>
+
+                <div class="specialists__list__item">
+                    <h3>
+                        Рябова Ирина
+                        Владимировна
+                    </h3>
+                    <p class="text2">
+                        Терапевт, хирург, стоматолог
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form" id="form-appointment">
+            <div class="form__container">
+                <div class="form__title">
+                    <h2>
+                        Запишитесь на прием
+                        <p class="textGogolFont">прямо сейчас !</p>
+                    </h2>
+                    <p class="text">
+                        Не откладывайте профилактику и лечение заболеваний питомца,
+                        оставьте заявку и наш менеджер свяжется с вами
+                    </p>
+                </div>
+
+                <form action="">
+                    <label for="name2">Ваше имя</label>
+                    <label for="phone2">Телефон</label>
+
+                    <input id="name2" type="text" placeholder="ВАШЕ ИМЯ" class="form__input">
+                    <input id="phone2" type="tel" placeholder="ТЕЛЕФОН" class="form__input">
+                    <button type="submit" class="button-primary">
+                        Отправить
+                    </button>
+                    <p class="caption">
+                        *Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__info">
+            <img src="images/logo-2.png" alt="Доктор Тома" width="140px" height="120px">
+            <div class="footer__info__description">
+                <p class="text3">
+                    Подольск,ул. Чайковского, 48А
+                    <br>
+                    <a href="tel:895667964366">+7 (956) 6796 43 66</a>
+                </p>
+                <p class="caption">Круглосуточно</p>
+
+                <div class="footer__links">
+                    <a href="">Договор оферты</a>
+                    <a href="">Политика конфиденциальности</a>
+                    <a href="">Доктор Тома</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__map"></div>
+    </footer>
+</body>
+</html>
