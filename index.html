@@ -10,11 +10,13 @@
     <header>
         <div class="header__logo"></div>
         <div class="header__contact-info">
+            <!-- Тут можно закинуть вместо p => <span> в строчках - 14,15 -->
             <p class="caption">Работаем круглосуточно</p>
             <p class="text3">Подольск, ул.Чайковского, 48А</p>
         </div>
         <div class="header__contact-info-secondary">
             <a href="tel:+74956783222" class="text3">+7 495 678 32 22</a>
+            <!-- Тут можно закинуть вместо p => <span> в строчках - 20 -->
             <p class="caption">Круглосуточно в подольске</p>
         </div>
         <a href="tel:+74956783222" class="header__contact-info__tel">+7 495 678 32 22</a>
@@ -101,7 +103,7 @@
                     Проводим диагностику и лечение пациентов на самом современном оборудовании
                 </p>
             </div>
-
+            <!-- В этой секции у тебя идут карточки, и это лучше в список обернуть, а стили такие же оставить -->
             <div class="advantages__card-big">
                 <div class="uniqueness-badge">
                     <span class="text2">Только у нас</span>
@@ -184,11 +186,18 @@
                         Вашему питомцу требуется неотложная помощь? Приедем в течение 40 минут!
                     </p>
                 </div>
-
+                <!-- В форму добавь method -->
                 <form action="">
+                    <!-- Зачем тут label, если он не отоброжается?  -->
                     <label for="name">Ваше имя</label>
                     <label for="phone">Телефон</label>
-
+                    
+                    <!--   
+                        И + обычно идет так
+                        <label for="name">Ваше имя</label>
+                        <input id="name" type="text" placeholder="ВАШЕ ИМЯ" class="form__input">
+                    -->
+                    
                     <input id="name" type="text" placeholder="ВАШЕ ИМЯ" class="form__input">
                     <input id="phone" type="tel" placeholder="ТЕЛЕФОН" class="form__input">
                     <button type="submit" class="button-primary">
@@ -224,6 +233,8 @@
                 </button>
             </div>
 
+            <!-- Переделай это под список -->
+            <!-- P.S. Запомни, если повторяются блоки или идет какое-то перечисление то тут ul>li -->
             <div class="services__list">
                 <div class="services__list__item">
                     <img src="images/services-diagnostic.svg" alt="diagnostic">
@@ -353,6 +364,7 @@
                 <div class="form__title">
                     <h2>
                         Запишитесь на прием
+                        <!-- Тут span, вместо p -->
                         <p class="textGogolFont">прямо сейчас !</p>
                     </h2>
                     <p class="text">
@@ -360,11 +372,11 @@
                         оставьте заявку и наш менеджер свяжется с вами
                     </p>
                 </div>
-
+                <!-- method -->
                 <form action="">
                     <label for="name2">Ваше имя</label>
                     <label for="phone2">Телефон</label>
-
+                    <!-- По поводу label писал -->
                     <input id="name2" type="text" placeholder="ВАШЕ ИМЯ" class="form__input">
                     <input id="phone2" type="tel" placeholder="ТЕЛЕФОН" class="form__input">
                     <button type="submit" class="button-primary">
@@ -387,9 +399,12 @@
                     <br>
                     <a href="tel:895667964366">+7 (956) 6796 43 66</a>
                 </p>
+                
+                <!-- Вместо p => span -->
                 <p class="caption">Круглосуточно</p>
 
                 <div class="footer__links">
+                    <!-- переделай под список -->
                     <a href="">Договор оферты</a>
                     <a href="">Политика конфиденциальности</a>
                     <a href="">Доктор Тома</a>
